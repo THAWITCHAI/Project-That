@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.back{
+    background-image: url('/car.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* filter: blur(10px); */
+    position: relative;
+}
