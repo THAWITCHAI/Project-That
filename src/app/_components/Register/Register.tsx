@@ -15,7 +15,7 @@ export default function Register({}: Props) {
         <form className="from " action="" method="post">
           <div className="input-register ">
             <label className="text-white text-xl " htmlFor="">
-              ชื่อ
+              หี
             </label>
             <input
               required
