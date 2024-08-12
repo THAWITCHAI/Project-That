@@ -45,7 +45,7 @@ export default function Sidebar({}: Props) {
           }}
         />
       </div>
-      <div className="profile w-full h-32 flex justify-center ">
+      <div className="profile w-full h-32 flex justify-center">
         <div className="image-profile  flex justify-center items-center">
           <Image src={"/profile.jpg"} width={120} height={120} alt="Profile" />
         </div>
@@ -63,7 +63,7 @@ export default function Sidebar({}: Props) {
           <h1 className="px-5">จองรถ</h1>
         </div>
       </Link>
-      <hr className="mt-5 mb-5" />
+      <hr className="mt-5 mb-5 hr" />
       <div className="text-[#ffffff88] mx-2 mb-5 menu-1">Show Data</div>
       <Link href={"#"}>
         <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-5 menu-btn">
