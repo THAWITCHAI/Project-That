@@ -80,7 +80,7 @@ export default function Sidebar({}: Props) {
       <hr className="mt-5 mb-5" />
       <div className="text-[#ffffff88] mx-2 mb-5 menu-1">Get Out</div>
       <Link href={"#"}>
-        <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-20 menu-btn">
+        <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-18 menu-btn">
           <Image className="Image" src={"/logout.png"} width={32} height={32} alt="Logo" />
           <h1 className="px-5">ออกจากระบบ</h1>
         </div>
