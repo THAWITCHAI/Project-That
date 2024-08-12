@@ -1,73 +1,86 @@
 .register {
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px);
-  width: 100%;
-  height: 100%;
-}
-.regis-form {
-  display: grid;
-  grid-template-columns: 100%;
-  justify-content: center;
-}
-.input-register {
-  height: 10%;
-  width: 90%;
-  display: grid;
-  grid-template-columns: 100%;
-}
-.input-register input {
-  border-bottom: 0.5px solid white;
-  background: none;
-}
-.input-register .input-1 {
-  border-bottom: none;
-  background: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
 }
 
-.regis-form .from{
+.regis-form {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(6,100px);
+    grid-template-columns: 100%;
+    justify-content: center;
 }
-.button{
+
+.input-register {
+    height: 10%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.input-register input {
+    border-bottom: 0.5px solid white;
+    background: none;
+}
+
+.input-register .input-1 {
+    border-bottom: none;
+    background: none;
+}
+
+.regis-form .from {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.button {
     grid-row: 6/7;
     grid-column: 3/1;
 }
-.button .button-submit{
+
+.button .button-submit {
     background: #F6AE2D;
     width: 100%;
     height: 45%;
 }
-.button .button-register{
+
+.button .button-register {
     background: #0CCA4A;
     width: 100%;
     height: 45%;
 }
-.button .button-submit:hover{
+
+.button .button-submit:hover {
     background: #9c6c12;
     width: 100%;
     height: 45%;
 }
-.button .button-register:hover{
+
+.button .button-register:hover {
     background: #138338;
     width: 100%;
     height: 45%;
 }
-.Image{
-  transition: 0.25s;
+
+.Image {
+    transition: 0.25s;
 }
-.Image:hover{
-  width: 150px;
-  transition: 0.25s;
+
+.Image:hover {
+    width: 150px;
+    transition: 0.25s;
 }
-.file{
-  height: 4rem;
+
+.file {
+    height: 4rem;
 }
-@media(max-width:1366px){
-  .Image{
-    width: 100px;
-  }
-  .Image:hover{
-    width: 120px;
-  }
+
+@media(max-width:1386px) {
+    .Image {
+        width: 100px;
+    }
+    .Image:hover {
+        width: 120px;
+    }
 }
