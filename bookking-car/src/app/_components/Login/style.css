@@ -55,7 +55,10 @@
 .Image{
     transition: 0.25s;
 }
-@media (max-width:1366px){
+@media (max-width:1364px){
+  .login{
+    height: 25rem;
+  }
   .input{
     height: 2rem;
   }
