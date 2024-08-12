@@ -89,4 +89,21 @@
     .input-register{
         height: 70px;
     }
+    .regis-form{
+        width: 100%;
+        height: 100%;
+    }
+    .regis-form .from{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .button {
+        grid-row: 6/7;
+        grid-column: 4/1;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    
+
 }

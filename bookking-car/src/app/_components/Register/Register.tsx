@@ -8,111 +8,111 @@ type Props = {};
 export default function Register({}: Props) {
   return (
     <div className="register flex justify-center items-center">
-      <div className="w-1/2 h-full p-10 regis-form">
+      <div className="w-1/2 h-full p-10 regis-form ">
         <div className="flex justify-center items-center Image-box">
           <Image className="Image" src={"/add-user.png"} width={128} height={128} alt="" />
         </div>
-        <form className="from border" action="" method="post">
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+        <form className="from " action="" method="post">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               ชื่อ
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="text"
               placeholder="Name"
             />
           </div>
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               นามสกุล
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="text"
               placeholder="Last Name"
             />
           </div>
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               ชื่อเล่น
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="text"
               placeholder="Nick Name"
             />
           </div>
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               อีเมลล์
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="email"
               placeholder="Your Email"
             />
           </div>
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               รหัสผ่าน
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="password"
               placeholder="Password"
             />
           </div>
           <div className="input-register ">
-            <label className="text-white text-xl border" htmlFor="">
+            <label className="text-white text-xl " htmlFor="">
               ยืนยันรหัสผ่าน
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="password"
               placeholder="Confirm Password"
             />
           </div>
-          <div className="input-register border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register ">
+            <label className="text-white text-xl " htmlFor="">
               เบอร์โทร
             </label>
             <input
               required
-              className="-none focus:outline-none text-white border"
+              className="-none focus:outline-none text-white "
               type="text"
               placeholder="Phone Number"
             />
           </div>
-          <div className="input-register file border">
-            <label className="text-white text-xl border" htmlFor="">
+          <div className="input-register file ">
+            <label className="text-white text-xl " htmlFor="">
               ใบขับขี่
             </label>
             <input
               required
-              className="input-1 -none focus:outline-none text-white border"
+              className="input-1 -none focus:outline-none text-white "
               type="file"
               placeholder="Name"
             />
           </div>
           <div className="input-register file">
-            <label className="text-white text-xl border" htmlFor="">
+            <label className="text-white text-xl " htmlFor="">
               ภาพโปรไฟล์
             </label>
             <input
               required
-              className="input-1 -none  focus:outline-none text-white border"
+              className="input-1 -none  focus:outline-none text-white "
               type="file"
               placeholder="Name"
             />
           </div>
-          <div className=" button flex justify-center border">
+          <div className=" button flex justify-center ">
             <div className="w-1/2 ">
               <span
               >
