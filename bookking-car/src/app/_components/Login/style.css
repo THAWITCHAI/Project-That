@@ -21,7 +21,7 @@
   width: 100%;
 }
 .btn {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   padding: 2rem;
   font-size: 20px;
 }
@@ -54,4 +54,30 @@
 }
 .Image{
     transition: 0.25s;
+}
+@media (max-width:1366px){
+  .input{
+    height: 2rem;
+  }
+  .input input{
+    height: 1rem;
+  }
+  .Image{
+    width: 100px;
+  }
+  .Image:hover{
+    width: 128px;
+  }
+  .image-input{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .button-submit{
+    height: 2.5rem;
+    font-size: 17px;
+  }
+  .button-register{
+    height: 2.5rem;
+    font-size: 17px;
+  }
 }

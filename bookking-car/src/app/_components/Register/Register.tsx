@@ -90,7 +90,7 @@ export default function Register({}: Props) {
               placeholder="Phone Number"
             />
           </div>
-          <div className="input-register ">
+          <div className="input-register file ">
             <label className="text-white text-xl" htmlFor="">
               ใบขับขี่
             </label>
@@ -101,7 +101,7 @@ export default function Register({}: Props) {
               placeholder="Name"
             />
           </div>
-          <div className="input-register ">
+          <div className="input-register file">
             <label className="text-white text-xl" htmlFor="">
               ภาพโปรไฟล์
             </label>

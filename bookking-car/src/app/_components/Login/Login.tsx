@@ -18,7 +18,7 @@ export default function Login({}: Props) {
       </div>
       <div className="input-form">
         <div className="input mb-2 h-12 flex justify-center items-center">
-          <Image src={"/user.png"} width={32} height={32} alt="" />
+          <Image className="image-input" src={"/user.png"} width={32} height={32} alt="" />
           <input
             type="text"
             className="w-auto -none focus:outline-none"
@@ -26,7 +26,7 @@ export default function Login({}: Props) {
           />
         </div>
         <div className="input  h-12 flex justify-center items-center">
-          <Image src={"/padlock.png"} width={32} height={32} alt="" />
+          <Image className="image-input" src={"/padlock.png"} width={32} height={32} alt="" />
           <input
             type="text"
             className="w-auto -none focus:outline-none"

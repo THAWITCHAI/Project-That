@@ -1,14 +1,54 @@
-.image-profile{
-    border-radius: 10rem;
-    overflow: hidden;
-    border: none;
+.image-profile {
+  border-radius: 10rem;
+  overflow: hidden;
+  border: none;
 }
-hr{
-    border: 0.25px solid #ffffff5d;
+hr {
+  border: 0.25px solid #ffffff5d;
 }
-.menu-btn{
+.menu-btn {
+  transition: 0.25s;
+}
+.menu-btn:hover {
+  transition: 0.25s;
+}
+@media (max-width: 1366px) {
+  .Image {
+    width: 18px;
     transition: 0.25s;
-}
-.menu-btn:hover{
+  }
+  .Image:hover {
+    width: 24px;
     transition: 0.25s;
+  }
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .contact-profile h1{
+    font-size: 16px;
+  }
+  .contact-profile h1 p{
+    font-size: 13px;
+  }
+  .border{
+    height: 45px;
+  }
+  .border .Image{
+    width: 24px;
+  }
+  .menu-1{
+    font-size: 12px;
+  }
+  .time-1{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .time{
+    font-size: 15px;
+  }
 }

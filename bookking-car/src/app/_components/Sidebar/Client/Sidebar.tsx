@@ -32,14 +32,14 @@ export default function Sidebar({}: Props) {
   };
 
   return (
-    <div className="w-1/6 h-full bg-[#2C3E50] text-white">
-      <div className="p-2 flex justify-end">
+    <div className="w-1/6 h-full bg-[#2C3E50] text-white ">
+      <div className="p-2 flex justify-end items-center h-14">
         <Image
           src={"/gear.png"}
           width={24}
           height={24}
           alt="setting"
-          className="cursor-pointer"
+          className="cursor-pointer Image"
           onClick={(e) => {
             return router.replace("/");
           }}
@@ -56,37 +56,37 @@ export default function Sidebar({}: Props) {
         </div>
       </div>
       <hr className="mt-5 mb-5" />
-      <div className="text-[#ffffff88] mx-2 mb-5">Menu</div>
+      <div className="text-[#ffffff88] mx-2 mb-5 menu-1">Menu</div>
       <Link href={"#"}>
         <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-10  menu-btn">
-          <Image src={"/appointment.png"} width={32} height={32} alt="Logo" />
+          <Image className="Image" src={"/appointment.png"} width={32} height={32} alt="Logo" />
           <h1 className="px-5">จองรถ</h1>
         </div>
       </Link>
       <hr className="mt-5 mb-5" />
-      <div className="text-[#ffffff88] mx-2 mb-5">Show Data</div>
+      <div className="text-[#ffffff88] mx-2 mb-5 menu-1">Show Data</div>
       <Link href={"#"}>
         <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-5 menu-btn">
-          <Image src={"/to-do-list.png"} width={32} height={32} alt="Logo" />
+          <Image className="Image" src={"/to-do-list.png"} width={32} height={32} alt="Logo" />
           <h1 className="px-5">รายการจองรถ</h1>
         </div>
       </Link>
       <Link href={"#"}>
         <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-5 menu-btn">
-          <Image src={"/pickup-car.png"} width={32} height={32} alt="Logo" />
+          <Image className="Image" src={"/pickup-car.png"} width={32} height={32} alt="Logo" />
           <h1 className="px-5">รถทั้งหมด</h1>
         </div>
       </Link>
       <hr className="mt-5 mb-5" />
-      <div className="text-[#ffffff88] mx-2 mb-5">Show Data</div>
+      <div className="text-[#ffffff88] mx-2 mb-5 menu-1">Get Out</div>
       <Link href={"#"}>
         <div className="border h-16 m-2 rounded-xl flex justify-start items-center px-5 hover:bg-slate-500 hover:border-none mb-20 menu-btn">
-          <Image src={"/logout.png"} width={32} height={32} alt="Logo" />
+          <Image className="Image" src={"/logout.png"} width={32} height={32} alt="Logo" />
           <h1 className="px-5">ออกจากระบบ</h1>
         </div>
       </Link>
-      <div className="h-16 m-2 rounded-xl flex justify-center items-center px-5 hover:bg-slate-500 hover:border-none mb-5 menu-btn">
-        <h1 className="text-xl text-yellow-500">{time ? formatTime(time) : "Loading..."}</h1>
+      <div className="time-1 h-16 m-2 rounded-xl flex justify-center items-center px-5 hover:bg-slate-500 hover:border-none mb-5 menu-btn">
+        <h1 className="time text-xl text-yellow-500">{time ? formatTime(time) : "Loading..."}</h1>
       </div>
     </div>
   );

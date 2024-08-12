@@ -7,7 +7,6 @@
 .regis-form {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 200px;
   justify-content: center;
 }
 .input-register {
@@ -60,4 +59,15 @@
 .Image:hover{
   width: 150px;
   transition: 0.25s;
+}
+.file{
+  height: 4rem;
+}
+@media(max-width:1366px){
+  .Image{
+    width: 100px;
+  }
+  .Image:hover{
+    width: 120px;
+  }
 }
