@@ -76,11 +76,17 @@
     height: 4rem;
 }
 
-@media(max-width:1386px) {
+@media(max-width:1364px) {
     .Image {
-        width: 100px;
+        width: 80px;
     }
     .Image:hover {
-        width: 120px;
+        width: 100px;
+    }
+    .Image-box{
+        height: 100px;
+    }
+    .input-register{
+        height: 70px;
     }
 }
